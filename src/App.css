@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(219, 255, 165);
+    color: black;
+}
+
+.joke{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: beige; */
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(6, 197, 6);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color .5s;
+}
+
+button:hover{
+    background-color: rgba(0, 112, 0, 0.774);
+}
+
+button:active{
+    background-color: green;
+}
+p{
+    margin : 20px 40px;
+    font-size: 1.4rem;
+    color: rgb(212, 57, 0);
+}
